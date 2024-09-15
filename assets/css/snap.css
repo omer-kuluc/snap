@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+}
+
+.header a {
+  color: #686868;
+}
+
+.left-side {
+  display: flex;
+  gap: 40px;
+}
+
+.header a:hover {
+  color: #151515;
+}
+
+.register:hover {
+  border: 1.5px solid #151515;
+}
+
+.snap-logo {
+  margin-right: 62.24px;
+  padding-left: 41.26px;
+}
+
+.right-side {
+  display: flex;
+  padding-right: 40px;
+  gap: 40px;
+}
+
+.right-side .register {
+  border: 1.5px solid #686868;
+  border-radius: 20px;
+  padding-block: 13px;
+  padding-inline: 22px;
+  text-align: center;
+  font-family: "Epilogue";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+.right-side > a {
+  padding-top: 13px;
+}
+
+.container {
+  width: 1440px;
+  padding-top: 67px;
+  padding-left: 165px;
+  padding-right: 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 125px;
+  padding-bottom: 130px;
+  margin-inline: auto;
+}
+
+.container .text-section {
+  width: 540px;
+  padding-top: 117px;
+}
+
+.text-section h1 {
+  font-family: Epilogue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.1111111640930176px;
+  margin-bottom: 48px;
+}
+
+.text-section p {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #686868;
+}
+
+.button {
+  width: 170px;
+  padding: 15px 28px 13px 31px;
+  background-color: #151515;
+  border-radius: 15px;
+  margin-top: 66px;
+  margin-bottom: 108px;
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.button a {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button:hover .btn {
+  color: #151515;
+}
+
+.sponsors-section {
+  display: flex;
+  gap: 40px;
+}
